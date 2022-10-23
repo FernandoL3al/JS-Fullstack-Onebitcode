@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: black;
+  display: flex;
+}
+
+img {
+  display: flex;
+  width: 140px;
+  height: 40px;
+  justify-content: start;
+  gap: 30px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 5px;
+}
+
+.buttonHeader {
+  color: white;
+  margin: 10px;
+  padding: 5px;
+  background-color: black;
+  border: 2px groove white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.buttonHeader:hover {
+  border: 2px solid red;
+}
